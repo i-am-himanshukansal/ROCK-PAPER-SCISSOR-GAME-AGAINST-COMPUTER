@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text color */
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    /* background-image: url(https://www.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg) ; */
+}
+
+/* Choices Container */
+.choices {
+    display: flex;
+    justify-content: center; /* Center choices */
+    align-items: center;
+    gap: 2rem; /* Gap between choices */
+    margin-top: 2rem; /* Spacing from heading */
+}
+
+/* Game Choices */
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Width of game choice */
+    height: 200px; /* Height of game choice */
+    border: 2px solid #E0E0E0; /* Light border */
+    border-radius: 10px;
+    background-color: #1E1E1E; /* Dark background */
+    transition: transform 0.2s; /* Hover effect */
+}
+
+.choice:hover {
+    cursor: pointer; /* Pointer on hover */
+    border: 5px solid #E0E0E0; /* Light border on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Game Images */
+.game img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Intro Block */
+#intro {
+    text-align: center;
+    font-size: 2.5rem; /* Font size */
+    color: #E0E0E0; /* Light text color */
+}
+
+.intro-block {
+    background-color: #1E1E1E; /* Dark background */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Shadow effect */
+    margin-bottom: 30px; /* Space below */
+}
+
+/* Scoreboard */
+.scoreboard {
+    display: flex;
+    justify-content: center; /* Center scoreboard */
+    align-items: center;
+}
+
+.score {
+    font-weight: bolder; /* Bold text */
+    font-size: 26px; /* Font size */
+    text-align: center;
+    margin: 0 60px; /* Horizontal margin */
+}
+
+/* Message Box */
+.message {
+    background-color: #1E1E1E; /* Dark background */
+    color: #E0E0E0; /* Light text */
+    font-weight: bold; /* Bold text */
+    font-size: 1.5rem; /* Font size */
+    text-align: center; /* Center text */
+    padding: 10px 20px; /* Padding */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Shadow for depth */
+    margin-top: 20px; /* Space above */
+    width: fit-content; /* Adjust width */
+    max-width: 90%; /* Maximum width */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+/* Reset Button */
+#resetbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; /* Bold text */
+    height: 50px; /* Button height */
+    width: 150px; /* Button width */
+    padding: 10px; /* Padding */
+    
+    background-color: #007BFF; /* Background color */
+    color: #FFFFFF; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin: 20px auto; /* Center button */
+}
+
+/* Hover effect for reset button */
+#resetbtn:hover {
+    background-color: #0056B3; /* Darker shade on hover */
+}
+#scissor{
+    background-color: white;
+}
+.footer {
+    /* //himanshukansal101@gmail.com */
+    text-align: center; /* Center text */
+    background-color: #1E1E1E; /* Dark background */
+    color: #E0E0E0; /* Light text color */
+    padding: 20px; /* Padding around the footer */
+    border-top: 1px solid #E0E0E0; /* Light border at the top */
+}
+
+.footer h6, .footer p {
+    margin: 0; /* Remove margin */
+    padding: 5px 0; /* Padding for spacing */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 1rem; /* Same font size */
+}
+
+.social-icons {
+    margin-top: 10px; /* Space above social icons */
+}
+
+.icon {
+    color: #E0E0E0; /* Icon color */
+    font-size: 1.5rem; /* Size of the icons */
+    margin: 0 10px; /* Space between icons */
+    transition: color 0.3s; /* Transition effect */
+}
+.icon:hover {
+    color: #007BFF; /* Change color on hover */
+}
+    
